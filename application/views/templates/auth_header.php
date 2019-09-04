@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="<?= base_url('assets/'); ?>images/fav.ico">
+    <link rel="shortcut icon" href="<?= base_url('assets/'); ?>images/favicon.ico">
 
     <!-- App css -->
     <link href="<?= base_url('assets/'); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
