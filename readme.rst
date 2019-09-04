@@ -12,7 +12,7 @@ Saat ini LaundryKun masih dalam tahap pengembangan untuk mencapai target yang se
 Develop Partner
 *******************
 
-Dalam hal ini, KunCreative <https://kuncreative.co> (Head) yang menaungi Project LaundryKun ini
+Dalam hal ini, KunCreative (Head) yang menaungi Project LaundryKun ini
 menggandeng beberapa Start Up berkompeten untuk berkolaborasi dengan core-team internal KunCoding
 mengembangkan management system LaundryKun agar semakin maksimal dan powerful.
 
@@ -23,3 +23,7 @@ KunCreative
 KunCreative adalah salah satu Start Up di Kota Bandung yang bergerak di bidang Jasa atau lebih
 tepatnya Digital Agency yang mengekspansi beberapa model bisnis digital yang memberi imbas positif
 untuk beberapa youthpreneur yang sudah berkolaborasi dengan KunCreative.
+
+##WebSite: https://kuncreative.co
+##Personal: https://farridkuntoro.me
+##Mail: hai@farridkuntoro.me
