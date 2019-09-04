@@ -29,12 +29,12 @@
     <div id="wrapper">
 
         <!-- ========== Left Sidebar Start ========== -->
-        <div class="left side-menu">
+        <div class="left side-menu bg-primary">
 
             <div class="slimscroll-menu" id="remove-scroll">
 
                 <!-- LOGO -->
-                <div class="topbar-left">
+                <div class="topbar-left bg-primary">
                     <a href="#" class="logo">
                         <span>
                             <img src="<?= base_url('assets/'); ?>images/logo.png" alt="" height="36">
@@ -48,10 +48,10 @@
                 <!-- User box -->
                 <div class="user-box">
                     <div class="user-img">
-                        <img src="<?= base_url('assets/'); ?>images/users/avatar-1.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-fluid">
+                        <img src="<?= base_url('assets/'); ?>images/users/avatar-1.jpg" alt="user-img" title="Gambar Profile" class="rounded-circle img-fluid">
                     </div>
-                    <h5><a href="#"><?= $pengguna['nama']; ?></a> </h5>
-                    <p class="text-muted">Administrator</p>
+                    <h5><a href="#" class="text-white"><?= $pengguna['nama']; ?></a> </h5>
+                    <p class="text-pink">Administrator</p>
                 </div>
 
                 <!--- Sidemenu -->
@@ -63,15 +63,15 @@
 
                         <li>
                             <a href="#">
-                                <i class="fi-air-play"></i><span class="badge badge-danger badge-pill float-right">1</span> <span> Dashboard </span>
+                                <i class="fi-air-play text-white"></i><span class="badge badge-danger badge-pill float-right">1</span> <span class="text-white"> Dashboard </span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="javascript: void(0);"><i class="fi-head"></i> <span> Pangkalan </span> <span class="menu-arrow"></span></a>
+                            <a href="javascript: void(0);"><i class="fi-head text-white"></i> <span class="text-white"> Pangkalan </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="#">Profil Saya</a></li>
-                                <li><a href="#">Ganti Password</a></li>
+                                <li><a href="#" class="text-white">Profil Saya</a></li>
+                                <li><a href="#" class="text-white">Ganti Password</a></li>
                             </ul>
                         </li>
 
@@ -148,7 +148,7 @@
                                 </a>
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <a href="<?= base_url('auth/logout'); ?>" class="dropdown-item notify-item">
                                     <i class="fi-power"></i> <span>Logout</span>
                                 </a>
 
@@ -156,25 +156,6 @@
                         </li>
 
                     </ul>
-
-                    <ul class="list-inline menu-left mb-0">
-                        <li class="float-left">
-                            <button class="button-menu-mobile open-left disable-btn">
-                                <i class="dripicons-menu"></i>
-                            </button>
-                        </li>
-                        <li>
-                            <div class="page-title-box">
-                                <h4 class="page-title">Dashboard </h4>
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                    <li class="breadcrumb-item active">Profile</li>
-                                </ol>
-                            </div>
-                        </li>
-
-                    </ul>
-
                 </nav>
 
             </div>
@@ -186,7 +167,7 @@
             <div class="content">
                 <div class="container-fluid">
 
-
+                    <h1 class="text-dark">BLANK PAGE</h1>
 
                 </div> <!-- container -->
 
