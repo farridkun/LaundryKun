@@ -49,8 +49,8 @@ class Auth extends CI_Controller
                     redirect('auth');
                 }
             } else {
-                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
-            Hmmm, Akunnya belum aktif nih</div>');
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"><i class="fi-lock"></i>
+             Hmmm, Akunnya belum aktif nih :( </div>');
                 redirect('auth');
             }
         } else {
@@ -79,7 +79,7 @@ class Auth extends CI_Controller
             $data = [
                 'nama' => htmlspecialchars($this->input->post('nama')),
                 'email' => htmlspecialchars($this->input->post('email')),
-                'image' => 'default.jpg',
+                'image' => 'default.png',
                 'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
                 'role_id' => 2,
                 'is_active' => 1,
