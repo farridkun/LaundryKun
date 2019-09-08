@@ -48,7 +48,7 @@
                 <!-- User box -->
                 <div class="user-box">
                     <div class="user-img">
-                        <img src="<?= base_url('assets/'); ?>images/users/avatar-1.jpg" alt="user-img" title="Gambar Profile" class="rounded-circle img-fluid">
+                        <img src="<?= base_url('assets/'); ?>images/users/default.png" alt="user-img" title="Gambar Profile" class="rounded-circle img-fluid">
                     </div>
                     <h5><a href="#" class="text-white"><?= $pengguna['nama']; ?></a> </h5>
                     <p class="text-pink">Administrator</p>
@@ -68,10 +68,10 @@
                         </li>
 
                         <li>
-                            <a href="javascript: void(0);"><i class="fi-head text-white"></i> <span class="text-white"> Pangkalan </span> <span class="menu-arrow"></span></a>
+                            <a href="javascript: void(0);"><i class="fi-head text-white"></i> <span class="text-white"> Informasi </span> <span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="#" class="text-white">Profil Saya</a></li>
-                                <li><a href="#" class="text-white">Ganti Password</a></li>
+                                <li><a href="#" class="text-white bg-primary">Profil Saya</a></li>
+                                <li><a href="#" class="text-white bg-primary">Ganti Password</a></li>
                             </ul>
                         </li>
 
@@ -134,7 +134,7 @@
 
                         <li class="dropdown notification-list">
                             <a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <img src="<?= base_url('assets/'); ?>images/users/avatar-1.jpg" alt="user" class="rounded-circle"> <span class="ml-1"><?= $pengguna['nama']; ?><i class="mdi mdi-chevron-down"></i> </span>
+                                <img src="<?= base_url('assets/'); ?>images/users/default.png" alt="user" class="rounded-circle"> <span class="ml-1"><?= $pengguna['nama']; ?><i class="mdi mdi-chevron-down"></i> </span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
                                 <!-- item-->
@@ -156,6 +156,25 @@
                         </li>
 
                     </ul>
+
+                    <ul class="list-inline menu-left mb-0">
+                        <li class="float-left">
+                            <button class="button-menu-mobile open-left disable-btn">
+                                <i class="dripicons-menu"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <div class="page-title-box">
+                                <h4 class="page-title">Profil Saya</h4>
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Informasi</a></li>
+                                    <li class="breadcrumb-item active">Profil Saya</li>
+                                </ol>
+                            </div>
+                        </li>
+
+                    </ul>
+
                 </nav>
 
             </div>
@@ -168,6 +187,7 @@
                 <div class="container-fluid">
 
                     <h1 class="text-dark">BLANK PAGE</h1>
+                    <img src="<?= base_url('assets/'); ?>images/bg-profile.svg" class="rounded mx-auto d-block" alt="" height="350">
 
                 </div> <!-- container -->
 
