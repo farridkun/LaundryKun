@@ -10,6 +10,10 @@ class Member extends CI_Controller
         $data['title_before'] = 'Informasi';
         $data['pengguna'] = $this->db->get_where('pengguna', ['email' => $this->session->userdata('email')])->row_array();
 
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/topbar', $data);
         $this->load->view('member/index', $data);
+        $this->load->view('templates/footer');
     }
 }

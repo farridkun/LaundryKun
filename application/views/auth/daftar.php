@@ -74,7 +74,7 @@
     </div>
 
     <div class="m-t-40 text-center">
-        <p class="account-copyright text-white">2019 © <a href="instagram.com/farrid_jr" target="_blank" class="text-pink">Farrid_Jr</a> - <b>KunCreative</b></p>
+        <p class="account-copyright text-white"><?= date('Y'); ?> © <a href="instagram.com/farrid_jr" target="_blank" class="text-pink">Farrid_Jr</a> - <b>KunCreative</b></p>
     </div>
 
 </div>
