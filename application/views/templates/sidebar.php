@@ -32,7 +32,7 @@
                        <!--<li class="menu-title">Navigation</li>-->
 
                        <li>
-                           <a href="#">
+                           <a href="<?= $sd_page; ?>">
                                <i class="fi-air-play text-white"></i><span class="badge badge-danger badge-pill float-right">1</span> <span class="text-white"> Dashboard </span>
                            </a>
                        </li>
