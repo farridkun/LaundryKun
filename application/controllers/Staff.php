@@ -8,7 +8,7 @@ class Staff extends CI_Controller
     {
         $data['title'] = 'Dashboard';
         $data['title_before'] = 'Staff';
-        $data['sd_page'] = 'staff';
+        $data['nama_role'] = 'Staff Laundry';
         $data['pengguna'] = $this->db->get_where('pengguna', ['email' => $this->session->userdata('email')])->row_array();
 
         $this->load->view('templates/header', $data);

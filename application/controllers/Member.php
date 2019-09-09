@@ -8,6 +8,7 @@ class Member extends CI_Controller
     {
         $data['title'] = 'Profil Saya';
         $data['title_before'] = 'Informasi';
+        $data['nama_role'] = 'Member';
         $data['pengguna'] = $this->db->get_where('pengguna', ['email' => $this->session->userdata('email')])->row_array();
 
         $this->load->view('templates/header', $data);

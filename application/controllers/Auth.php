@@ -44,7 +44,7 @@ class Auth extends CI_Controller
                     $this->session->set_userdata($data);
                     if ($pengguna['role_id'] == 1) {
                         redirect('admin');
-                    } else if ($pengguna['role_id'] == 3) {
+                    } else if ($pengguna['role_id'] == 2) {
                         redirect('staff');
                     } else {
                         redirect('member');
